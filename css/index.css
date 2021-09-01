@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    width: 100%;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+}
+
+.nav .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+.nav .container .wrapper {
+    height: 54px;
+    width: 935px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav .container .trai {
+    width: 360px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav .container .trai img{
+    width: 103px;
+    height: 29px;
+    display: inline;
+}
+
+.nav .container .search-box {
+    width: 215px;
+    height: 28px;
+    position: relative;
+}
+
+.isearch {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 3px 10px 3px 26px;
+    box-sizing: border-box;
+}
+
+.icon-search {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.icos {
+    color: #abadb0;
+    margin-right: 6px;
+}
+
+.txt-s {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #a69a9a;
+}
+
+.nav .container .phai {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 360px;
+}
+
+.menu {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.menu li {
+    margin-left: 22px;
+}
+
+.ava {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    background-image: url('https://loremflickr.com/320/240/dog');
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    margin-top: 54px;
+    height: 100%;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.main .trai {
+    width: 614px;
+    height: 1000px;
+    border: 1px solid black;
+    margin-right: 28px;
+    float: left;
+}
+
+.main .phai {
+    width: 293px;
+    border: 1px solid yellow;
+}
+
+.goiy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.goiy .avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
+.my-g {
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.goiy .my-ava {
+    width: 56px;
+    height: 56px;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.info .name {
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(38, 38, 38);
+}
+
+.info .name:hover a {
+    text-decoration: underline;
+}
+
+.info .status a{
+    font-weight: 400;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.btn a{
+    font-weight: 600;
+    font-size: 12px;
+    color: #0095f6;
+}
